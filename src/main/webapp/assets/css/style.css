@@ -30,3 +30,56 @@ button:hover {
 span {
     font-size: 1.3rem;
 }
+
+._grid {
+    text-align: justify !important;
+    text-justify: distribute-all-lines;
+    font-size: 0 !important;
+    text-rendering: optimizespeed;
+}
+._grid:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+._column {
+    display: inline-block;
+    vertical-align: top;
+    font-size: medium;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+}
+._btn {
+    display: inline-block;
+    background-color: #bdc3c7;
+    border: none;
+    padding: .5em .75em;
+    text-align: center;
+    font-weight: 300;
+}
+._btn:hover,
+.cart-totals:hover ._btn {
+    background-color: #3498db;
+    color: #ecf0f1;
+}
+
+.product-modifiers {
+    width: 12.496358%;
+    text-align: right;
+    border-left: 1px solid #bdc3c7;
+}
+.product-subtract,
+.product-plus,
+.product-qty {
+    background-color: transparent;
+    color: #686868;
+    text-align: center;
+}
+
+.product-qty {
+    padding: .35em .75em;
+}
+
+.product-modifiers:hover .product-remove {
+    visibility: visible;
+}

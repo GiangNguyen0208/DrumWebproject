@@ -117,57 +117,8 @@
                     </div>
                 </div>
             </div>
-            <div class="profile-function">
-                <!-- .bhbbJ -->
-                <!-- .jIFHQL -->
-                <div class="profile-function-list-container">
-                    <ul class="profile-function-list">
-                        <!--.fAkTRM -->
-                        <li>
-                            <a class="is-active" href="/customer/account/edit">
-                                <i class="fa fa-user"></i>
-                                <span>Thông tin tài khoản</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="" href="/customer/notification">
-                                <i class="fa fa-bell"></i>
-                                <span>Thông báo của tôi</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="" href="/sales/order/history">
-                                <i class="fa fa-list-alt"></i>
-                                <span>Quản lý đơn hàng</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="" href="/return-tracking/history">
-                                <i class="fa fa-box"></i>
-                                <span>Quản lý đổi trả</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="" href="/customer/address">
-                                <i class="fa fa-map-marker-alt"></i>
-                                <span>Sổ địa chỉ</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="" href="/customer/paymentcard">
-                                <i class="fa fa-money-check"></i>
-                                <span>Thông tin thanh toán </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="" href="/review-hub">
-                                <i class="fa fa-thumbs-up"></i>
-                                <span>Đánh giá sản phẩm</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <!-- .dLDnti -->
+            <jsp:include page="sidebar-profile.jsp" />
             <form action="./profile" method="post" class="form">
                 <div id="manage-account" class="account active">
                     <div class="account_title">Thông tin tài khoản</div>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Login:war" />
+      <artifact name="Login:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,12 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="701121a4-0132-4c18-a223-79713d38fe31" name="Changes" comment="admin change information product">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/HistoryBillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ThankYouController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/BillDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/checkout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/history-bill.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sidebar-profile.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/AdminAddBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/AdminAddBrand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/AdminAddCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/AdminAddCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/BrandDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/BrandDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/CategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/CategoryDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/adminEditProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/adminEditProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/BillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ColorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ColorDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/DB.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/DB.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bill.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bill.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/productDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/productDetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/profile.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +41,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Class" />
         <option value="Jsp File" />
         <option value="CSS File" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,11 +74,20 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2Zona6r7kYZP0nMlQoK15SXiaDS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,10 +97,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Dai&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Thuong/Documents/ProjectLTW/OurProject_Team49&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/workspace/DrumWebproject&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -86,11 +110,33 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BrandDAO">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.85">
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="" />
+      <option name="contextPath" value="" />
+      <option name="docBase" value="" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.85" />
+          <option name="path" value="$PROJECT_DIR$/../../../../../Tomcat 9/apache-tomcat-9.0.85" />
+          <option name="version" value="9.0.85.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BrandDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dao.BrandDAO" />
       <module name="Login" />
@@ -157,11 +203,15 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.85" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.85" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Login:war">
+        <artifact name="Login:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/Ban_Trong" />
+            <option name="CONTEXT_PATH" value="/Login_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -239,7 +289,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Login:war" />
+          <artifact name="Login:war exploded" />
         </option>
       </method>
     </configuration>
@@ -320,28 +370,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="com.poratu.idea.plugins.tomcat">
-      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
-      <predefined_log_file enabled="true" id="Tomcat Access Log" />
-      <predefined_log_file id="Tomcat Catalina Log" />
-      <predefined_log_file id="Tomcat Manager Log" />
-      <predefined_log_file id="Tomcat Host Manager Log" />
-      <option name="catalinaBase" value="" />
-      <option name="contextPath" value="" />
-      <option name="docBase" value="" />
-      <option name="extraClassPath" value="" />
-      <option name="tomcatInfo">
-        <TomcatInfo>
-          <option name="name" value="Apache Tomcat/9.0.85" />
-          <option name="path" value="$PROJECT_DIR$/../../../../../Tomcat 9/apache-tomcat-9.0.85" />
-          <option name="version" value="9.0.85.0" />
-        </TomcatInfo>
-      </option>
-      <option name="vmOptions" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BrandDAO" />
@@ -400,6 +428,11 @@
       <workItem from="1705985187533" duration="925000" />
       <workItem from="1705986125669" duration="25793000" />
       <workItem from="1706074674547" duration="17375000" />
+      <workItem from="1706192985277" duration="12546000" />
+      <workItem from="1706229062646" duration="175000" />
+      <workItem from="1706229358303" duration="169000" />
+      <workItem from="1706229553499" duration="940000" />
+      <workItem from="1706275165804" duration="11676000" />
     </task>
     <task id="LOCAL-00001" summary="admin view product">
       <option name="closed" value="true" />
@@ -447,31 +480,5 @@
     <MESSAGE value="admin view product" />
     <MESSAGE value="admin change information product" />
     <option name="LAST_COMMIT_MESSAGE" value="admin change information product" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/profile.jsp</url>
-          <line>163</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/profile.jsp</url>
-          <line>73</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/profile.jsp</url>
-          <line>92</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/profile.jsp</url>
-          <line>187</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

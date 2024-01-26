@@ -30,7 +30,7 @@ public class ColorDAO {
 //    }
 public static List<Product_Color> getListColorCodeByIdProduct(int id) {
     List<Product_Color> listColor = JDBIConnector.me().withHandle(handle ->
-            handle.createQuery("SELECT product_color.nameColor, product_color.codeColor " +
+            handle.createQuery("SELECT product_color.* " +
                             "From product_color " +
                             "Inner Join product_details On product_color.detailId = product_details.id " +
                             "Where product_color.detailId = :id")
